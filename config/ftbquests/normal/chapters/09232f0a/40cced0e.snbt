@@ -1,0 +1,35 @@
+{
+	title: "Backpacks: The Useful Ones",
+	x: 0.0d,
+	y: 13.5d,
+	description: "They Have Your Back",
+	text: [
+		"A burden shared is a burden divided. In this case, a burden off-loaded.",
+		"",
+		"While you mine large amounts of ore, you might notice that you cannot carry all of the resources you gather. These backpacks will allow you to store certain types of materials in them.",
+		"",
+		"In particular, you can store ores, ore dust, and ore chunks in the purple backpack, while the blue backpack stores ground materials like cobblestone and dirt."
+	],
+	dependencies: [
+		"0c4208ce"
+	],
+	hide: true,
+	tasks: [{
+		uid: "54c10b63",
+		type: "item",
+		items: [{
+			item: "forestry:miner_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "64ed383b",
+		type: "item",
+		items: [{
+			item: "forestry:digger_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

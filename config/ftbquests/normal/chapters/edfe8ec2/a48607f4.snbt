@@ -1,0 +1,24 @@
+{
+	title: "The Foglet",
+	x: 4.0d,
+	y: 2.5d,
+	description: "A Mist Opportunity",
+	text: [
+		"The fog called the unwary, luring them to their demise.",
+		"",
+		"The Foglet, when attacking, will spawn a fog that will obscure its position. Anyone in contact with this fog will contract Blindness II, which leaves them open to furture attacks.",
+		"",
+		"The Foglet spawns in swamps, jungles, and rivers."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8459a7f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ef0ec1e6",
+		type: "kill",
+		entity: "mod_lavacow:foglet",
+		value: 100L
+	}]
+}

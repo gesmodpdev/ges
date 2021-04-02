@@ -1,0 +1,24 @@
+{
+	title: "The Vespa",
+	x: -2.0d,
+	y: 2.5d,
+	description: "These Things Bug Me",
+	text: [
+		"Vespa flew down upon the poor traveler, depositing their own parasites to hatch on his freshly killed corpse.",
+		"",
+		"Vespa will attack you and zombie type creatures, depositing parasites in them. Upon death, the parasites will burst out and spread to others.",
+		"",
+		"Vespa spawn after jungle type parasites are left alone for too long. When you see a pulsating cocoon on the ground, you should attack!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8459a7f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8000a812",
+		type: "kill",
+		entity: "mod_lavacow:vespa",
+		value: 100L
+	}]
+}

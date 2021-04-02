@@ -1,0 +1,33 @@
+{
+	title: "Bad Plants",
+	x: 0.0d,
+	y: 1.5d,
+	description: "Not the Villain, but Still Evil",
+	text: [
+		"Leaves of three, let it be.",
+		"",
+		"Poison grows in a variety of biomes, and touching it poisons you.",
+		"",
+		"Deathbloom only grows in the Ominous Woods, and gives the wither effect upon touching it. ",
+		"",
+		"Please be wary of these plants."
+	],
+	dependencies: [
+		"13ed3730"
+	],
+	hide: true,
+	tasks: [{
+		uid: "48bc9270",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:plant_0 1 4"
+		}]
+	},
+	{
+		uid: "f34be9a4",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:flower_0 1 2"
+		}]
+	}]
+}

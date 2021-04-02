@@ -1,0 +1,14 @@
+{
+	title: "Charcoal?",
+	icon: "minecraft:coal 1 1",
+	x: 4.5d,
+	y: 3.0d,
+	shape: "rsquare",
+	text: [
+		"Multiblock tab"
+	],
+	dependencies: [
+		"1fef86f4"
+	],
+	hide: true
+}

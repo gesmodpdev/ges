@@ -1,0 +1,15 @@
+{
+	x: 3.0d,
+	y: 1.5d,
+	dependencies: [
+		"b956a5a6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8b0d47ef",
+		type: "item",
+		items: [{
+			item: "animania:block_nest"
+		}]
+	}]
+}

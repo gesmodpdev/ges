@@ -1,0 +1,22 @@
+{
+	title: "Using This Guide",
+	x: -3.0d,
+	y: 0.0d,
+	shape: "diamond",
+	description: "Shaping Your Future Experience",
+	text: [
+		"Before you begin your questing, there's a few things to note, mainly dealing with progression.",
+		"Important quests, those required to progress, are given in a rounded square container, like the quest you previously completed.",
+		"Quests that aren't vital to progress are noted in circles.",
+		"Quests that give information, like this one, are enclosed in a diamond."
+	],
+	dependencies: [
+		"fecd363f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eaef9027",
+		type: "checkmark",
+		title: "Using This Guide"
+	}]
+}

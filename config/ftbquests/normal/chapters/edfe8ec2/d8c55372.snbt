@@ -1,0 +1,17 @@
+{
+	x: 4.5d,
+	y: -5.5d,
+	dependencies: [
+		"b14fe3d0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9a87af4a",
+		type: "item",
+		items: [{
+			item: "iceandfire:myrmex_desert_swarm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

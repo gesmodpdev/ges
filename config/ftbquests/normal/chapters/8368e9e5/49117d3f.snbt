@@ -1,0 +1,15 @@
+{
+	x: -1.5d,
+	y: -1.5d,
+	dependencies: [
+		"efd84085"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6a419163",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 4"
+		}]
+	}]
+}

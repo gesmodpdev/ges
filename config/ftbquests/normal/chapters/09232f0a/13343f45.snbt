@@ -1,0 +1,37 @@
+{
+	title: "GT Tool Uses",
+	x: -3.0d,
+	y: 12.0d,
+	shape: "diamond",
+	description: "PhD of Tooling Around",
+	text: [
+		"Even with the best of tools, knowledge of the tools themselves is required to be a master.",
+		"",
+		"Here are a list of uses for each of the tools that you previously made. Please refer to this section if you do not know the purpose of a particular tool.",
+		"",
+		"Wire Cutter - Necessary for destroying wires, and used in crafting.",
+		"",
+		"Wrench - Necessary for destroying pipes, and used in crafting. Also can be used to configure the output side of a machine by right clicking on the side you want the output to be on.",
+		"",
+		"Hammer - Can pulverize ores, and used in crafting.",
+		"",
+		"Saw - Used in crafting. Can increase plank yield per wood.",
+		"",
+		"Knife - Used in crafting.",
+		"",
+		"Mortar - Used in crafting, mainly for transforming materials into their dust equivalent.",
+		"",
+		"Bending Cylinder - Used in crafting, mainly for pipes.",
+		"",
+		"Small Bending Cylinder - Used in crafting rings."
+	],
+	dependencies: [
+		"9f4139d7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8dc6ef12",
+		type: "checkmark",
+		title: "GT Tool Uses"
+	}]
+}

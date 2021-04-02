@@ -1,0 +1,17 @@
+{
+	title: "Fish's Undead Rising - Nonhostile",
+	x: 1.5d,
+	y: 2.0d,
+	description: "The Not-So-Grave Enemies",
+	text: [
+		"Upon the daybreak I look, observing the monsters whose lives I took.",
+		"",
+		"Some of these mobs, while not inherently hostile, still pose an annoyance or a threat if provoked. Use your best judgement in when to engage.",
+		"",
+		"On the flip side, some of these mobs can be rather helpful in certain circumstances. Again, use your best judgement. Even as your guide, my judgement ability is limited."
+	],
+	dependencies: [
+		"d9db7e59"
+	],
+	hide: true
+}

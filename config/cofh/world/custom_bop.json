@@ -1,0 +1,28 @@
+{
+    "dependencies": "biomesoplenty",
+    "populate": {
+        "ruby": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "biomesoplenty:gem_ore",
+                    "data_tag": "1"
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 2
+            },
+            "cluster-count": 0,
+            "min-height": 4,
+            "max-height": 32,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    0,
+                    1
+                ]
+            }
+        }
+    }
+}

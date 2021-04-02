@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: -0.5d,
+	dependencies: [
+		"68049638"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d697ee2c",
+		type: "item",
+		items: [{
+			item: "iceandfire:cyclops_eye"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

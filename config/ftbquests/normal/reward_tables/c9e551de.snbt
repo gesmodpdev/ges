@@ -1,0 +1,10 @@
+{
+	title: "Sapling",
+	loot_size: 1,
+	rewards: [{
+		item: "biomesoplenty:sapling_1 1 7"
+	},
+	{
+		item: "biomesoplenty:sapling_2 1 2"
+	}]
+}

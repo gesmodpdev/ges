@@ -1,0 +1,18 @@
+{
+	title: "Ice and Fire - Minibosses",
+	x: -0.5d,
+	y: -2.5d,
+	description: "Of Mystical Monsters, a Fear Shall You Foster",
+	text: [
+		"Legends are simply forgotten truths. In this world, they are not forgotten.",
+		"",
+		"The hostile monsters in this section of my databanks are, from my calculations, the most dangerous of any you can find in the Overworld.",
+		"They often have high health, high attack, and various qualities that make them dangerous.",
+		"",
+		"Be wary."
+	],
+	dependencies: [
+		"d9db7e59"
+	],
+	hide: true
+}

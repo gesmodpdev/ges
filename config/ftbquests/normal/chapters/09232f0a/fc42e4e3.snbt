@@ -1,0 +1,21 @@
+{
+	title: "It's a Bronze Pipe, but Larger",
+	x: 6.0d,
+	y: 12.0d,
+	description: "A Pipe Dream",
+	text: [
+		"Sometimes, expanding the scope of transport will result in a greater thoroughput.",
+		"",
+		"While the small pipe is enough to transport low amounts of steam, you might want to make these larger pipes to accomodate more and more machines in your steam-run factory. Let's craft a few! "
+	],
+	dependencies: [
+		"987c193c"
+	],
+	tasks: [{
+		uid: "ae32f06e",
+		type: "item",
+		items: [{
+			item: "gregtech:fluid_pipe 1 3095"
+		}]
+	}]
+}

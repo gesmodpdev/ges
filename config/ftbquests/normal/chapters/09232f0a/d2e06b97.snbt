@@ -1,0 +1,48 @@
+{
+	title: "Harvesting Tools Mk. 2",
+	x: 13.5d,
+	y: 1.5d,
+	description: "Journeyman of Tooling Around",
+	text: [
+		"A task is often made easier with the right materials.",
+		"",
+		"To improve on your old flint harvesting tools, I suggest making a few more patterns to use in the Tool Station.",
+		"",
+		"Whatever materials you want may be used, but note the \"Harvest Level\" that appears in the tooltip is the level of material you can harvest with your tool.",
+		"For most practical purposes, this only matters for your pickaxe. "
+	],
+	dependencies: [
+		"1cd12c51"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d2706b85",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	},
+	{
+		uid: "e9fd3fd4",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:shovel_head"
+			}
+		}]
+	},
+	{
+		uid: "bd41ecb0",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:axe_head"
+			}
+		}]
+	}]
+}

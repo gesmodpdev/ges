@@ -1,0 +1,36 @@
+{
+	title: "Getting an Upgrade #3",
+	x: 13.5d,
+	y: 10.5d,
+	description: "Straight Shot to Bronze",
+	text: [
+		"The arrow from the better bow flies farther, and pierces more.",
+		"",
+		"Let's upgrade our bow! The draw speed of the bow will decrease due to the frame of the bow being made of metal, but damage output and range will correspondingly increase.",
+		"",
+		"The upgrade to the arrow head will just increase damage and durability, which is always useful."
+	],
+	dependencies: [
+		"d611958c"
+	],
+	tasks: [{
+		uid: "409ae475",
+		type: "item",
+		items: [{
+			id: "tconstruct:arrow_head",
+			tag: {
+				Material: "bronze"
+			}
+		}]
+	},
+	{
+		uid: "2e886b12",
+		type: "item",
+		items: [{
+			id: "tconstruct:bow_limb",
+			tag: {
+				Material: "bronze"
+			}
+		}]
+	}]
+}

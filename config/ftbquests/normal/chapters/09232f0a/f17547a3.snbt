@@ -1,0 +1,23 @@
+{
+	title: "Metal #1: Iron",
+	x: 0.0d,
+	y: 6.0d,
+	shape: "rsquare",
+	description: "Ironic Humor at its Finest",
+	text: [
+		"Ironworks are the heart of an empire, the lifeblood of its soldiers.",
+		"",
+		"Let's make some iron! This metal is used to make a variety of useful tools, and items, that will make your life easier."
+	],
+	dependencies: [
+		"a9cf1864"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5a046562",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}]
+}

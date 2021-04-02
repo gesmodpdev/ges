@@ -1,0 +1,23 @@
+{
+	title: "Metal #3: Tin",
+	x: 7.5d,
+	y: 7.5d,
+	shape: "rsquare",
+	description: "Eight, Nine, Even Tin Ingots",
+	text: [
+		"Sometimes, the whole of the machine is more important than any individual part.",
+		"",
+		"Let's make some tin! Like copper, this material won't be used for much besides making bronze until we start making electric machines. "
+	],
+	dependencies: [
+		"a9cf1864"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1434cbcb",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10071"
+		}]
+	}]
+}

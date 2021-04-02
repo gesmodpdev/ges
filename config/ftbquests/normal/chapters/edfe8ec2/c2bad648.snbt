@@ -1,0 +1,24 @@
+{
+	title: "The Banshee",
+	x: -1.0d,
+	y: 2.5d,
+	description: "Screamo Supreme",
+	text: [
+		"A shriek was heard throughout the night, and death was spelled for the ones that heard it.",
+		"",
+		"The Banshee, when it notices you, will float down and scream. This scream will cause a small explosion, deal 2 damage, and give you Weakness III and Slowness VII for 1 second.",
+		"",
+		"The Banshee will spawn everywhere at night, and burn up during the day."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8459a7f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3ed14198",
+		type: "kill",
+		entity: "mod_lavacow:banshee",
+		value: 100L
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "The First Storage Unit",
+	x: 4.5d,
+	y: -3.0d,
+	description: "Get Those Thoughts Off Your Chest",
+	text: [
+		"While the materials on hand are helpful, the amount of world to store is overwhelming.",
+		"",
+		"Congratulations, you can now store items! You can make better variants of the chests once you get to metal ingots. Enjoy your new inventory space!"
+	],
+	dependencies: [
+		"0b66cb65"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b2936e44",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}]
+	}]
+}

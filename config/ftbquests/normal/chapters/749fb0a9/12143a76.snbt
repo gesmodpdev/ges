@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	dependencies: [
+		"b956a5a6"
+	],
+	tasks: [{
+		uid: "a3525864",
+		type: "item",
+		items: [{
+			item: "animania:block_trough"
+		}]
+	}]
+}

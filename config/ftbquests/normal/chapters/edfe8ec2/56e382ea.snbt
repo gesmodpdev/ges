@@ -1,0 +1,17 @@
+{
+	x: 5.0d,
+	y: -4.5d,
+	dependencies: [
+		"b14fe3d0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f0d7d7ab",
+		type: "item",
+		items: [{
+			item: "iceandfire:cockatrice_skull"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

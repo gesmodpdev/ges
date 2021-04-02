@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: -4.5d,
+	dependencies: [
+		"b14fe3d0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "62291d26",
+		type: "item",
+		items: [{
+			item: "iceandfire:stymphalian_skull"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

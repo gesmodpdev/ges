@@ -1,0 +1,24 @@
+{
+	title: "The Ptera",
+	x: 6.0d,
+	y: 2.5d,
+	description: "Ptera You a New One",
+	text: [
+		"Swarms of the Ptera circled overhead, slowly wearing down the warrior with numbers alone.",
+		"",
+		"Ptera will fly down to attack you, or carry other mobs to drop them on top of you.",
+		"",
+		"They spawn in deserts and jungles."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8459a7f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ae54a158",
+		type: "kill",
+		entity: "mod_lavacow:ptera",
+		value: 100L
+	}]
+}

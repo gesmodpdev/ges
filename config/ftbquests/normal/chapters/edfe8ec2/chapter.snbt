@@ -1,0 +1,7 @@
+{
+	title: "Overworld",
+	icon: "minecraft:grass",
+	always_invisible: false,
+	group: -1412781604,
+	default_quest_shape: ""
+}

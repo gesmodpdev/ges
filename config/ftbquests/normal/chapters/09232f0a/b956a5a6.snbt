@@ -1,0 +1,21 @@
+{
+	title: "Animals o' Plenty",
+	x: 3.0d,
+	y: 4.5d,
+	shape: "diamond",
+	description: "Don't Be Having a Cow Now",
+	text: [
+		"The life of a farmer is a simple, yet satisfying, decision for many.",
+		"",
+		"With your new flint tools, you can craft some useful items for keeping an animal farm! Please see the associated section, \"Food for Thought\", for more information."
+	],
+	dependencies: [
+		"da92fa62"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b75599e8",
+		type: "checkmark",
+		title: "Animania"
+	}]
+}

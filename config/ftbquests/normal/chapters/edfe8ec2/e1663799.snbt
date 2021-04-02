@@ -1,0 +1,24 @@
+{
+	title: "The Unburied",
+	x: 7.0d,
+	y: 0.5d,
+	description: "The Undertaker's Less Cool Cousin",
+	text: [
+		"The Unburied swarmed the village as their Undertaker master watched with uncaring eyes.",
+		"",
+		"The Unburied are mainly spawned by the Undertaker.",
+		"",
+		"However, there is tales of an item which lets you summon Unburied of your own..."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8459a7f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d8b6514b",
+		type: "kill",
+		entity: "mod_lavacow:unburied",
+		value: 100L
+	}]
+}

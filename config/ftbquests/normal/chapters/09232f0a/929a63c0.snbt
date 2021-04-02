@@ -1,0 +1,58 @@
+{
+	title: "The Ranged Option",
+	x: 13.5d,
+	y: 3.0d,
+	description: "Bowing Down To Greatness",
+	text: [
+		"Hunting was forever changed with the introduction of the ranged weapon.",
+		"",
+		"In addition to any melee weaponry you might have, a ranged weapon is a great tool to use!",
+		"",
+		"Let's make the patterns required for both the bow and arrows."
+	],
+	dependencies: [
+		"1cd12c51"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "f2d32e90",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:bow_string"
+			}
+		}]
+	},
+	{
+		uid: "117ca2aa",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:fletching"
+			}
+		}]
+	},
+	{
+		uid: "933f85dd",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:arrow_head"
+			}
+		}]
+	},
+	{
+		uid: "f2c5f3c5",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:bow_limb"
+			}
+		}]
+	}]
+}

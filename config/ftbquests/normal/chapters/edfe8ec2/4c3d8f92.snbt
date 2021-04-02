@@ -1,0 +1,26 @@
+{
+	title: "The Scarecrow",
+	x: -3.5d,
+	y: 1.5d,
+	description: "A Hearty Opponent",
+	text: [
+		"The Scarecrow looked over the field, swinging its scythe at any interlopers.",
+		"",
+		"The Scarecrow, by day, will be still. At night, they will swing their scythes at you, inflicting Corroded II for 4 seconds.",
+		"",
+		"It spawns in plains.",
+		"",
+		"An interesting variant of the Scarecrow, the Plague Doctor, will only spawn after killing a raven. "
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8459a7f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ab9aeec2",
+		type: "kill",
+		entity: "mod_lavacow:scarecrow",
+		value: 100L
+	}]
+}

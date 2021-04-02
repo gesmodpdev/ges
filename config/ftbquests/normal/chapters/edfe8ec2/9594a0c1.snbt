@@ -1,0 +1,24 @@
+{
+	title: "The Osvermis",
+	x: -1.5d,
+	y: 1.5d,
+	description: "Having a Bone to Pick",
+	text: [
+		"The sand collapsed under the adventurer's feet as the osvermis devoured it whole.",
+		"",
+		"The Osvermis will spend most of its time underground. When it surfaces, it will spit a wad of bile at you, causing 6 damage and inflicting Poison and Corroded IV for 2 seconds.",
+		"",
+		"It spawns in sandy locations."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8459a7f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "00dafbfa",
+		type: "kill",
+		entity: "mod_lavacow:boneworm",
+		value: 100L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Boating for Days",
+	x: 1.5d,
+	y: 4.5d,
+	description: "I Ship Them",
+	text: [
+		"And on the seven seas they sailed, with heads high and songs resounding.",
+		"",
+		"If you want to travel in the water, this is the vessel you need to get going. Unlike earlier models, I can help you craft a boat that doesn't break apart at the slightest nudge. I exist to help you out, after all!"
+	],
+	dependencies: [
+		"da92fa62"
+	],
+	hide: true,
+	tasks: [{
+		uid: "32b099b8",
+		type: "item",
+		items: [{
+			item: "minecraft:boat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

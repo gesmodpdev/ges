@@ -1,0 +1,28 @@
+{
+	title: "The Beginning of Something Great",
+	x: 6.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "Learning Your Craft",
+	text: [
+		"The journey of a thousand miles begins with a single step.",
+		"",
+		"This is the first mini-milestone in your adventure! With this table, you will unlock 3x3 crafting, and a whole new range of possibilities.",
+		"While this isn't much, it's still important. Good work!",
+		"",
+		"This is also the first use of tools in recipes. Note that the tools aren't consumed in the recipe, but durability is used. If the durability reaches 0 because of the recipe, then the tool will disappear."
+	],
+	dependencies: [
+		"da92fa62",
+		"1d5ff99e"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "c154e167",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}]
+}

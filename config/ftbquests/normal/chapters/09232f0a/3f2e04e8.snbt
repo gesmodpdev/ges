@@ -1,0 +1,28 @@
+{
+	title: "The Second Ingredient: Seared Bricks",
+	x: 7.5d,
+	y: 4.5d,
+	shape: "rsquare",
+	description: "Thankfully This Won't Brick Your System",
+	text: [
+		"The stone keeps the forge, allowing for materials to be stored.",
+		"",
+		"In order to get ingots, you'll need a Melter. Specifically, you'll need to create the Melter to melt, cast, and cool metal to form ingots.",
+		"",
+		"Note that the amount of seared bricks you will need to make everything required for the melter is in this quest.",
+		"",
+		"More information on how to work the melter will be in a future quest."
+	],
+	dependencies: [
+		"4daeadaf",
+		"1fef86f4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1b7eb947",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}]
+	}]
+}

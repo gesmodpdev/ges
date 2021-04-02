@@ -1,0 +1,23 @@
+{
+	title: "Steam: The Beckoning #2",
+	x: 4.5d,
+	y: 12.0d,
+	shape: "rsquare",
+	description: "A Hull Lot of Problems",
+	text: [
+		"The template is as important as the machine; With it, you can ensure the same quality across different machines.",
+		"",
+		"We're almost to the end (of the beginning) now. The Bricked Bronze Hull is one of the two hulls you'll make for your steam machines, and the one you're creating will be used to make your very own Boiler! Keep at it!"
+	],
+	dependencies: [
+		"987c193c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9d9a385f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine_casing 1 11"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	dependencies: [
+		"f17547a3"
+	],
+	tasks: [{
+		uid: "37ef89b9",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

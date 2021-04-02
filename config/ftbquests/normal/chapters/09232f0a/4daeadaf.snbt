@@ -1,0 +1,23 @@
+{
+	title: "The Makings of Bricks",
+	x: 9.0d,
+	y: 4.5d,
+	shape: "rsquare",
+	description: "Forming your Future",
+	text: [
+		"A house of bricks will stand the strongest winds.",
+		"",
+		"This form is essential to making bricks of any mold, which are needed for a variety of very important reasons. You only need one of these, thankfully!"
+	],
+	dependencies: [
+		"20721e28"
+	],
+	hide: true,
+	tasks: [{
+		uid: "884a2112",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32012"
+		}]
+	}]
+}

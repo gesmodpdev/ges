@@ -1,0 +1,24 @@
+{
+	title: "The Ithaqua",
+	x: 5.0d,
+	y: 2.5d,
+	description: "Wendi-Go Kill Some of These",
+	text: [
+		"The void, the insatiable void of the Ithaqua's stomach, shall always be fed yet never be full.",
+		"",
+		"The Ithaqua will, when you are a distance away, howl and pounce on you. Its attacks will inflict Hunger V, and if it uses both arms it will deal more damage and disable your shield. The Ithaqua can also pick up meat from the ground and eat it, healing itself in the process.",
+		"",
+		"The Ithaqua spawns in cold forests."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8459a7f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "67d6c26c",
+		type: "kill",
+		entity: "mod_lavacow:ithaqua",
+		value: 100L
+	}]
+}

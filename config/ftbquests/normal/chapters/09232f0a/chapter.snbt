@@ -1,0 +1,7 @@
+{
+	title: "Tier 0: Stone Age",
+	icon: "minecraft:flint",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

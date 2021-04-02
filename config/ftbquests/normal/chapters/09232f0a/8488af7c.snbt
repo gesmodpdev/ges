@@ -1,0 +1,22 @@
+{
+	title: "The First Defense",
+	x: 3.0d,
+	y: 0.0d,
+	description: "A Punjint Odor",
+	text: [
+		"With the terrors of the night awaiting, the people made traps to ensnare their enemies.",
+		"",
+		"This should be the first defense you'll be able to make, only needing some string and sugar cane or bamboo. Just be sure not to fall in your own trap!"
+	],
+	dependencies: [
+		"da92fa62"
+	],
+	hide: true,
+	tasks: [{
+		uid: "69ecd741",
+		type: "item",
+		items: [{
+			item: "tconstruct:punji"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	dependencies: [
+		"b956a5a6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2c47eef0",
+		type: "item",
+		items: [{
+			item: "animania:block_mud"
+		}]
+	}]
+}

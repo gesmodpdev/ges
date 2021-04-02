@@ -1,0 +1,24 @@
+{
+	title: "Storing Food",
+	x: -3.0d,
+	y: 6.0d,
+	description: "The Meal Deal",
+	text: [
+		"Diversity in food makes for a happy camper.",
+		"",
+		"With this lunch bag, you can carry three foods to eat. This is good for when you want to go mining, or exploring, or really anything that requires you to be out of your residence for a prolonged period of time."
+	],
+	dependencies: [
+		"9f4139d7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "443d76b3",
+		type: "item",
+		items: [{
+			item: "spiceoflife:lunchbag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

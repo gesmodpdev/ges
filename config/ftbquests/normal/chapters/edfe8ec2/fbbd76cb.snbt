@@ -1,0 +1,21 @@
+{
+	title: "The Moogma",
+	x: 1.0d,
+	y: 0.5d,
+	description: "This Thing's on Another Laval",
+	text: [
+		"Through the fires and flames, a new being was born.",
+		"",
+		"Moogmas are passive mobs that can be milked for lava. However, they can only be created by a using a Potion of MOOten Lava on a Cow. Keep in mind that if the cow does not have fire resistance, it will burn to death."
+	],
+	dependencies: [
+		"2a4a7e57"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7925f7a3",
+		type: "kill",
+		entity: "mod_lavacow:lavacow",
+		value: 100L
+	}]
+}

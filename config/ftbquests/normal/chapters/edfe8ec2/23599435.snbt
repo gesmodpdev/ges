@@ -1,0 +1,17 @@
+{
+	x: 5.0d,
+	y: -2.5d,
+	dependencies: [
+		"473f968c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b7e92298",
+		type: "item",
+		items: [{
+			item: "iceandfire:hippogryph_skull"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

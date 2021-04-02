@@ -1,0 +1,16 @@
+{
+	title: "Ice and Fire - Nonhostiles",
+	x: 3.5d,
+	y: -2.5d,
+	description: "The Best of the Bunch",
+	text: [
+		"Helpful beings of mystical origin have been known for time immemorial. Thankfully, they still exist today.",
+		"",
+		"This section details the enemies that are not immediately hostile towards you, and some are quite helpful.",
+		"However, do not take this as invitation to slaughter, as some will resist with force."
+	],
+	dependencies: [
+		"d9db7e59"
+	],
+	hide: true
+}

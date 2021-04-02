@@ -1,0 +1,35 @@
+{
+	title: "Butcher Knife",
+	x: -1.5d,
+	y: 6.0d,
+	description: "Animalicious Attacks",
+	text: [
+		"Living off the land is much easier when one can use every part of their harvest.",
+		"",
+		"The Butcher Knife will allow you to obtain more drops, be it in leather, meat, or other materials, from animals. ",
+		"",
+		"This is useful if you have an animal farm."
+	],
+	dependencies: [
+		"f17547a3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "12f8d33a",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 21s
+				}],
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			},
+			Damage: 18s
+		}],
+		ignore_nbt: 1b
+	}]
+}

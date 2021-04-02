@@ -1,0 +1,19 @@
+{
+	title: "Oh the Places You'll Go!",
+	x: -4.5d,
+	y: -1.5d,
+	shape: "diamond",
+	description: "Plenty of Biomes, Plenty of Problems",
+	text: [
+		"The land one walks on is often what determines their lifestyle.",
+		"",
+		"Depending on what biome you've spawned it, you might have an easier time than others. Particularly dangerous biomes are:",
+		"",
+		"Ominous Woods",
+		"",
+		"As my databanks are updated, more biomes to watch out for will be listed."
+	],
+	dependencies: [
+		"8482358f"
+	]
+}

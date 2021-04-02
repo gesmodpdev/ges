@@ -1,0 +1,28 @@
+{
+	title: "Getting an Upgrade",
+	x: 12.0d,
+	y: 9.0d,
+	shape: "rsquare",
+	description: "I've Got Something to Pick with You",
+	text: [
+		"Often, the better resources are those harder to get.",
+		"",
+		"In order to mine the more important resources, like diamond and redstone, you'll need a better pickaxe. While you can make an iron one, a bronze pickaxe has more durability and has an ability, dense, which lets it last longer than a standard pickaxe.",
+		"",
+		"Later on, you might decide that bronze is better spent for steam machines. In which case, you can make an iron (or other material) pickaxe head. Then, fully repair the bronze pickaxe, and in a tool station place the pickaxe and the head to replace the head of your pickaxe!"
+	],
+	dependencies: [
+		"987c193c",
+		"487eef12"
+	],
+	tasks: [{
+		uid: "aec6700c",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "bronze"
+			}
+		}]
+	}]
+}

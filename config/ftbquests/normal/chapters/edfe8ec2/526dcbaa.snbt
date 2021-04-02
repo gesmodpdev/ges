@@ -1,0 +1,24 @@
+{
+	title: "The Swarmer",
+	x: 5.5d,
+	y: 1.5d,
+	description: "Bite-Size Enemies",
+	text: [
+		"The water ran red with the blood of the swarmer's victim.",
+		"",
+		"The Swarmer, while in water, will relentlessly attack all creatures in their sight, even jumping out of the water to attack them.",
+		"",
+		"They spawn in jungles and swamps."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8459a7f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ca6db208",
+		type: "kill",
+		entity: "mod_lavacow:zombiepiranha",
+		value: 100L
+	}]
+}

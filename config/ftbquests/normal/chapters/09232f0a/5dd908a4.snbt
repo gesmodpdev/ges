@@ -1,0 +1,22 @@
+{
+	title: "The Other Sugar Cane",
+	x: 0.0d,
+	y: -3.0d,
+	description: "No, It Doesn't Have Sugar",
+	text: [
+		"The best type of person is like bamboo; They are firm, yet flexible; Easy to grow, but hard to destroy.",
+		"",
+		"Bamboo is something found in the Bamboo Forest biome. If you're lucky enough to find one, bamboo can be used as a nice wall surrounding your base. It can also be made into thatching to build your home! To grow some, just place some bamboo on the ground and watch it grow (no water required)."
+	],
+	dependencies: [
+		"1d5ff99e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "20107991",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:bamboo"
+		}]
+	}]
+}

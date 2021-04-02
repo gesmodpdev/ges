@@ -1,0 +1,24 @@
+{
+	title: "The Avaton",
+	x: -1.5d,
+	y: 0.5d,
+	description: "The Swarmmaster",
+	text: [
+		"And a swarm of locusts was called, destroying the peace of the farm.",
+		"",
+		"Avatons are masters of Weta, spawning in two at a time until there are 16 Weta around them.",
+		"",
+		"They spawn in deserts and savannas."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8459a7f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f224c806",
+		type: "kill",
+		entity: "mod_lavacow:avaton",
+		value: 100L
+	}]
+}

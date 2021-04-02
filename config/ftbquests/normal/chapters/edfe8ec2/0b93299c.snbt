@@ -1,0 +1,24 @@
+{
+	title: "The Undertaker",
+	x: 6.5d,
+	y: 1.5d,
+	description: "No, it's not a Wrestler",
+	text: [
+		"An undead army swarmed the village, the Undertaker watching as its minions slaughtered the inhabitants.",
+		"",
+		"The Undertaker will summon 4 Unburied at once until there are at least 4 Unburied within a 16 block radius of the Undertaker.",
+		"",
+		"It spawns everywhere at night."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8459a7f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0127e2c4",
+		type: "kill",
+		entity: "mod_lavacow:undertaker",
+		value: 100L
+	}]
+}

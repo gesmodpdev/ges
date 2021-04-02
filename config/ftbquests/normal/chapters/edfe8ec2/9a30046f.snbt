@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: -5.5d,
+	dependencies: [
+		"b14fe3d0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2cc6afef",
+		type: "item",
+		items: [{
+			item: "iceandfire:troll_skull"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

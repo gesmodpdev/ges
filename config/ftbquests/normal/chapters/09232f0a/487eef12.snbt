@@ -1,0 +1,30 @@
+{
+	title: "Between Now and Casts",
+	x: 12.0d,
+	y: 6.0d,
+	shape: "rsquare",
+	description: "The Most Overpowered Resource",
+	text: [
+		"And out of the river came clay; soft when needed, hard when called for.",
+		"",
+		"As of now, you cannot currently make any more metallic casts. However, you can make clay casts. These disappear after creating a part, but can be used to make the tools you need until you obtain better materials.",
+		"",
+		"To create a clay mold, place a tool part in the Casting Table. Then, pour 288 mb - or two clay - onto the part. This will destroy the part, and create the clay mold.",
+		"",
+		"To begin, let's craft the arguably most important cast - a pickaxe head."
+	],
+	dependencies: [
+		"1cd12c51",
+		"a9cf1864"
+	],
+	tasks: [{
+		uid: "4d23be8b",
+		type: "item",
+		items: [{
+			id: "tconstruct:clay_cast",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	}]
+}

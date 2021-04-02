@@ -1,0 +1,17 @@
+{
+	title: "Check the Recipes!",
+	x: 3.0d,
+	y: 9.0d,
+	shape: "diamond",
+	description: "He's Making a List...",
+	text: [
+		"The best plans often adapt to the situation at hand.",
+		"",
+		"Once you reach milestones, be sure to check all of the recipes you were using previously! There is often a more efficient way to craft the recipes than the one you were previously using.",
+		"",
+		"For example, you can craft flint in a 1:1 manner with gravel using a mortar. You can make flint even more efficiently with a sifter! "
+	],
+	dependencies: [
+		"9f4139d7"
+	]
+}

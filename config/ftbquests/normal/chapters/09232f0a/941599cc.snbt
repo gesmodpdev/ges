@@ -1,0 +1,21 @@
+{
+	title: "The Better(?) Chest",
+	x: 10.5d,
+	y: 1.5d,
+	description: "I'm Seeing a Pattern Here",
+	text: [
+		"Patterns are meaningless without storing them in memory.",
+		"",
+		"If you've crafted a variety of patterns, you know that they take up a lot of room in your inventory. They cannot stack, and there is a wide variety of them. The solution is to craft a Pattern Chest. This will let you store as many unique patterns as you want, and can interface with the other tables to let you easily remove and replace patterns for ease of crafting."
+	],
+	dependencies: [
+		"20721e28"
+	],
+	tasks: [{
+		uid: "224ac380",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 4"
+		}]
+	}]
+}

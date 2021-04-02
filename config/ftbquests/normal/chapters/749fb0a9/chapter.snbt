@@ -1,0 +1,7 @@
+{
+	title: "Food for Thought",
+	icon: "animania:block_trough",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

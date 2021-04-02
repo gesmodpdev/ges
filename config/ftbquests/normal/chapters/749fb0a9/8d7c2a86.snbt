@@ -1,0 +1,62 @@
+{
+	title: "Pam's Gardens",
+	x: -2.5d,
+	y: -3.0d,
+	description: "Guarden' the Gardens",
+	text: [
+		"Without food, humanity will wither away.",
+		"",
+		"These gardens will be an excellent source of food variety. I will pull up some advice from my databanks on how to properly use them.",
+		"",
+		"These gardens will spread over time. If there are less than 8 of the same type of garden in an 9x3x9 space, centered on themselves, a copy of the garden might appear anywhere in a 5 block radius.",
+		"",
+		"When destroyed, every garden will drop a random assortment of food. You may sneak and destroy the garden to drop the garden itself, allowing for relocation.",
+		"",
+		"Let's collect every type of garden you can obtain in this world!"
+	],
+	dependencies: [
+		"ed4143a7"
+	],
+	tasks: [{
+		uid: "1d143305",
+		type: "item",
+		items: [{
+			item: "harvestcraft:aridgarden"
+		}]
+	},
+	{
+		uid: "34221039",
+		type: "item",
+		items: [{
+			item: "harvestcraft:frostgarden"
+		}]
+	},
+	{
+		uid: "1a802c8b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:shadedgarden"
+		}]
+	},
+	{
+		uid: "d3f7e7a1",
+		type: "item",
+		items: [{
+			item: "harvestcraft:soggygarden"
+		}]
+	},
+	{
+		uid: "59d0671b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:tropicalgarden"
+		}]
+	},
+	{
+		uid: "e5835f41",
+		type: "item",
+		items: [{
+			item: "harvestcraft:windygarden"
+		}]
+	}]
+}

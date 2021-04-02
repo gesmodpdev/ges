@@ -1,0 +1,30 @@
+{
+	title: "Your First Weapon",
+	x: 0.0d,
+	y: 4.5d,
+	description: "Looking Sharp",
+	text: [
+		"Sticks and stones may break my bones, but words will never hurt me.",
+		"",
+		"As you are currently unarmed, it is imperative that you make a weapon to fend off the monsters that come out at night. While this weapon won't do much, it's certainly better than your hand.",
+		"",
+		"Later, we'll be able to make our own weaponry, but that's a ways away."
+	],
+	dependencies: [
+		"da92fa62"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4005239f",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "flint"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

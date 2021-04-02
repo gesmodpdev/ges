@@ -1,0 +1,26 @@
+{
+	title: "The Humble Pressure Plate",
+	x: -3.0d,
+	y: 9.0d,
+	description: "Buckling Under Pressure",
+	text: [
+		"The ground beneath them sunk, and out of the walls, arrows flew towards them.",
+		"",
+		"Wooden pressure plates will send a redstone signal out when either item or entity is on them. Stone will only send a redstone signal out when an entity is on them.",
+		"",
+		"Currently, you cannot make a way to distinguish between enemies and yourself for this, so be way about using pressure plates in front of doors.",
+		"",
+		"To aid you, let's make both types!"
+	],
+	dependencies: [
+		"9f4139d7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2b701b39",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_pressure_plate"
+		}]
+	}]
+}

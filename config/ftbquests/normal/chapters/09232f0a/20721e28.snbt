@@ -1,0 +1,23 @@
+{
+	title: "The Cornerstone of any Tinker",
+	x: 9.0d,
+	y: 3.0d,
+	shape: "rsquare",
+	description: "Life is All About Patterns",
+	text: [
+		"Before one can do anything well, they need to know what they are doing.",
+		"",
+		"Patterns are the building blocks to quite a few tools, and blocks! To proceed, craft a few of them. These will be used to create the Tool Station, Stencil Table, and Part Builder, along with a brick, tool rod, and tool binding pattern for some important items you'll be making in the future."
+	],
+	dependencies: [
+		"01f00eaf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ae8e2814",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}]
+	}]
+}

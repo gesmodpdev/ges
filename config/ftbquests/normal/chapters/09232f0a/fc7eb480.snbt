@@ -1,0 +1,24 @@
+{
+	title: "Converting Between Seconds and Ticks",
+	x: 6.0d,
+	y: 15.0d,
+	shape: "diamond",
+	description: "Mathematics Ticks Me Off",
+	text: [
+		"An accurate measure of time is often important for delicate tasks.",
+		"",
+		"A lot of the measurements for steam, electricity, and recipes are listed in ticks. Ticks measure the flow of the world's time, and not any time that you may have yourself experienced. How does this apply to the framework of seconds?",
+		"If your world is progressing at a normal rate (some worlds run particularly slowly), the tick speed should be resting at around 20 ticks per second. Slower worlds will have less ticks per second.",
+		"",
+		"A good example of ticks to seconds conversions is the Steam Boiler. It produces 150mb of Steam per 25 ticks. Thus, assuming a normal world, there will be 150mb of steam every 1.25 seconds, or 600mb of steam every 5 seconds. Use this knowledge however you want."
+	],
+	dependencies: [
+		"8cd1ef33"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c317d14f",
+		type: "checkmark",
+		title: "Converting Between Seconds and Ticks"
+	}]
+}

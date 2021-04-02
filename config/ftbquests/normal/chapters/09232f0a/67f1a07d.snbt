@@ -1,0 +1,26 @@
+{
+	title: "A Horse, A Horse...",
+	x: -1.5d,
+	y: 12.0d,
+	description: "Saddled With All The Hard Tasks",
+	text: [
+		"...My kingdom for a horse!",
+		"",
+		"Travelling in this world is almost a necessity, unless you are rather lucky. In order to find the ores you'll need to progress, you'll have to find the ore veins, and that can take time.",
+		"",
+		"With a horse, you can travel much faster. So, let's make a saddle!"
+	],
+	dependencies: [
+		"9f4139d7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1ae8aea5",
+		type: "item",
+		items: [{
+			item: "minecraft:saddle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

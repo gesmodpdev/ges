@@ -1,0 +1,25 @@
+{
+	title: "The Lil' Sludge",
+	x: 4.5d,
+	y: 1.5d,
+	description: "Best Minion of all Slime",
+	text: [
+		"The sludge took form and attacked the marauding band of adventurers.",
+		"",
+		"The Lil' Sludge is a basic enemy that just attacks you when they get close.",
+		"",
+		"They are spawned in by Sludge Lords. However, there is rumor of a weapon that will let you control them..."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8459a7f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8d2b08b9",
+		type: "kill",
+		icon: "mod_lavacow:silky_sludge",
+		entity: "mod_lavacow:lilsludge",
+		value: 100L
+	}]
+}

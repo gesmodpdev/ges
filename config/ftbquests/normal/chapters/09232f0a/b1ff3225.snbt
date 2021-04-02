@@ -1,0 +1,21 @@
+{
+	title: "An Alternative to Stairs",
+	x: 1.5d,
+	y: 0.0d,
+	description: "Ladder to Heaven?",
+	text: [
+		"The more you dig a hole for yourself, the harder it is to get out.",
+		"",
+		"Ladders are another way of traveling long vertical distances, often being more compact than their stair counterparts. Whether this outweighs the cost associated with them is up to you."
+	],
+	dependencies: [
+		"da92fa62"
+	],
+	tasks: [{
+		uid: "d57f10d7",
+		type: "item",
+		items: [{
+			item: "minecraft:ladder"
+		}]
+	}]
+}

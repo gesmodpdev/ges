@@ -1,0 +1,7 @@
+{
+	title: "This Ore That",
+	icon: "gregtech:ore_diamond_0",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

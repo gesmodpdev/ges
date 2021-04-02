@@ -1,0 +1,71 @@
+{
+	title: "Metal at Last",
+	icon: "tcomplement:melter",
+	x: 7.5d,
+	y: 6.0d,
+	shape: "rsquare",
+	description: "Melt-err, Smelt?",
+	text: [
+		"With the advent of metal working, civilization changed forever.",
+		"",
+		"This is the third (or second, depending on what you've done) large milestone for this part of your journey! Congratulations!",
+		"",
+		"To use the Melter, place the Seared Tank on the ground. Then, place the Melter over it. On the sides that do not have a furnace face, place Seared Faucets (I recommend the two sides adjacent to the furnace face). Place the Casting Table under one faucet, and the Casting Basin under the other. To pour material out of the Melter, right click the Faucets.",
+		"",
+		"Note that in order to craft the Casting Table, you will need seared stone, which can only be made through the Casting Basin.",
+		"",
+		"To congratulate you on such a large occasion, I will expedite your metal process and give you an Ingot Cast!",
+		"",
+		"Place this cast on the Casting Table to pour ingots into it.",
+		"",
+		"To obtain ingots, take the ore that you want to smelt. The ores that give important metals are listed under their respective quests in \"This Ore That\", and mine it with a hammer. This will give crushed ore. ",
+		"Then, take the crushed ore and craft it with a hammer to get impure dust. Place the impure dust into the Melter to obtain the requisite amount of molten metal. This metal can then be poured into the Ingot Cast to then create ingots!"
+	],
+	dependencies: [
+		"797a6ae3",
+		"3f2e04e8"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "3158ba3a",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "bba78f7f",
+		type: "item",
+		items: [{
+			item: "tcomplement:melter"
+		}]
+	},
+	{
+		uid: "25dd4a4c",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}],
+		count: 2L
+	},
+	{
+		uid: "882953ef",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting 1 1"
+		}]
+	},
+	{
+		uid: "f4c2b9b6",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	}],
+	rewards: [{
+		uid: "5b4d65d5",
+		type: "item",
+		item: "tconstruct:cast_custom"
+	}]
+}

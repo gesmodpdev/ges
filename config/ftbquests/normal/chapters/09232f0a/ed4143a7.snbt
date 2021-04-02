@@ -1,0 +1,18 @@
+{
+	title: "Variety is the...",
+	x: -4.5d,
+	y: 1.5d,
+	shape: "diamond",
+	description: "Sugar and Spice and all things Nice",
+	text: [
+		"Food is the giver of life, but it comes at a price.",
+		"",
+		"As you walk around, you might notice that you become hungry fairly quickly. To mitigate this, please refrain from running or jumping as much as possible.",
+		"Please check out the Farming Resources tab for more information on quick and easy food to obtain.",
+		"",
+		"Note, however, that the more you eat food, the more your body becomes saturated with it. This means that the food will fill you less and less until it doesn't restore any of your hunger. Try and find as much of a variety of food as possible!"
+	],
+	dependencies: [
+		"8482358f"
+	]
+}

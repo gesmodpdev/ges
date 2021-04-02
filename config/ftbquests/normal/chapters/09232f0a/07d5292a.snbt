@@ -1,0 +1,26 @@
+{
+	title: "Well-Deserved Rest",
+	x: 6.0d,
+	y: -3.0d,
+	shape: "rsquare",
+	description: "You're Gonna Have a Bed Time",
+	text: [
+		"The human body can go, at most, a week without sleep. You aren't human, but sleep is still helpful.",
+		"",
+		"Making this will let you skip the night and set a spawn point. Both are important, so it's best you make a bed as soon as possible.",
+		"",
+		"The true base building begins!"
+	],
+	dependencies: [
+		"0b66cb65"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1d7f580a",
+		type: "item",
+		items: [{
+			item: "minecraft:bed"
+		}],
+		ignore_nbt: 1b
+	}]
+}

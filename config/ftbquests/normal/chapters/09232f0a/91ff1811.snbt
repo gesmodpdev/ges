@@ -1,0 +1,54 @@
+{
+	title: "The Weapons of War",
+	x: 13.5d,
+	y: 4.5d,
+	description: "Giving Yourself an Edge",
+	text: [
+		"The blade a warrior uses is an extension of their arm. It then behooves them to verify the sword's quality.",
+		"",
+		"There are three swords that can be crafted from the Tool Station. Each has their own style of combat, and can be read more about in the Tool Station. To get a good feel for what weapon works for you, let's make enough patterns for each of the swords! I'll let you choose what material you want, however."
+	],
+	dependencies: [
+		"1cd12c51"
+	],
+	tasks: [{
+		uid: "65ce149f",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:sword_blade"
+			}
+		}]
+	},
+	{
+		uid: "c45f5ef3",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:wide_guard"
+			}
+		}]
+	},
+	{
+		uid: "911d8e3b",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:cross_guard"
+			}
+		}]
+	},
+	{
+		uid: "220f4be4",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:hand_guard"
+			}
+		}]
+	}]
+}

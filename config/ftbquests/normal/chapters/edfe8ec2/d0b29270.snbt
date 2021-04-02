@@ -1,0 +1,17 @@
+{
+	x: -0.5d,
+	y: -6.5d,
+	dependencies: [
+		"b14fe3d0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e2187223",
+		type: "item",
+		items: [{
+			item: "iceandfire:siren_flute"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

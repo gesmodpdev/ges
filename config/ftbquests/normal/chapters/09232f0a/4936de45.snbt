@@ -1,0 +1,22 @@
+{
+	title: "Better Storage",
+	x: 4.5d,
+	y: 9.0d,
+	description: "That's so Metal",
+	text: [
+		"The lofty vault had to begin somewhere.",
+		"",
+		"You might notice that wooden chests don't store a lot of items, especially if you obtain a lot of ores. While you'll be able to solve that problem soon, here's a stopgap measure if you want it."
+	],
+	dependencies: [
+		"987c193c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "028b3585",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 802"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Ore Location Information",
+	x: 4.5d,
+	y: 1.5d,
+	shape: "diamond",
+	description: "Not Like The Olden Days",
+	text: [
+		"The location of metal is what catapulted some civilizations to greatness, while others fell into ruin by the wayside.",
+		"",
+		"Ores in this world don't spawn in predetermined locations. Instead, they are found randomly throughout the world. To find ores, look for dust on top of the surface; Ore veins of that metal will spawn beneath.",
+		"",
+		"More information about ore veins, and what ore veins spawn in a respective dimension, can be found in \"This Ore That\"."
+	],
+	dependencies: [
+		"efd84085"
+	],
+	hide: true
+}

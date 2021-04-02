@@ -1,0 +1,23 @@
+{
+	title: "The Emperor Weta",
+	x: 2.0d,
+	y: 3.0d,
+	description: "Cropped Out",
+	text: [
+		"The farmers looked upon their fields with despair, as the Weta had come.",
+		"",
+		"Weta will seek out and destroy all crops, grass, and bushes they can find. This includes any farm you have, so be sure to place your farms in a location that cannot be accessed by these creatures.",
+		"",
+		"You can tame them with Caned Pork, and while the tamed Weta will affect crops, it will only reset the crops to the earliest state, allowing for these creatures to be used in an auto-farming setup."
+	],
+	dependencies: [
+		"2a4a7e57"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9bdf6aa4",
+		type: "kill",
+		entity: "mod_lavacow:weta",
+		value: 100L
+	}]
+}

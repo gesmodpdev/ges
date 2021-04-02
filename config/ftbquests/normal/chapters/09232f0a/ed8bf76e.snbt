@@ -1,0 +1,19 @@
+{
+	title: "The Enemies You'll Face",
+	x: -3.0d,
+	y: 1.5d,
+	shape: "diamond",
+	description: "Here There Be Monsters",
+	text: [
+		"The real world is where the monsters are. - Rick Riordan",
+		"",
+		"The world that you find yourself in is filled with many monsters of many forms. As you travel throughout the realms, you'll encounter a variety of enemies that you'll have to exterminate. ",
+		"",
+		"I have opened up my databanks to let you peruse a list of all of the monsters you'll encounter. As you go to more realms, more monsters will be known to you, and more strategies will have to be formed.",
+		"Good luck!"
+	],
+	dependencies: [
+		"8482358f"
+	],
+	hide: true
+}

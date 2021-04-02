@@ -1,0 +1,24 @@
+{
+	title: "Sleeping Bag",
+	x: -3.0d,
+	y: 13.5d,
+	description: "Tired of the Hassle",
+	text: [
+		"They slept underneath the stars, no barrier between them and the great outdoors.",
+		"",
+		"Sleeping bags will let you sleep throughout the night without moving your spawn point. This is great for exploration purposes, as well as sleeping through the night after a long mining expedition."
+	],
+	dependencies: [
+		"0c4208ce"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2b8bda93",
+		type: "item",
+		items: [{
+			item: "openblocks:sleeping_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

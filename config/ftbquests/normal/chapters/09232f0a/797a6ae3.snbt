@@ -1,0 +1,29 @@
+{
+	title: "The First Ingredient: Lava",
+	x: 6.0d,
+	y: 4.5d,
+	shape: "rsquare",
+	description: "I Lava You So Much",
+	text: [
+		"The heat fuels the forge, allowing for materials to be processed.",
+		"",
+		"In order to get ingots, you'll need a Melter. Specifically, you'll need to power the melter so it can melt metal, which can only be done by providing it lava.",
+		"",
+		"Note that clay buckets cannot handle lava; They will disappear once you pour the lava out.",
+		"",
+		"More information on how to work the melter will be in a future quest."
+	],
+	dependencies: [
+		"1fef86f4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "783af75b",
+		type: "item",
+		items: [{
+			item: "claybucket:claybucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

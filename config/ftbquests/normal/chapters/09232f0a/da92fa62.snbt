@@ -1,0 +1,82 @@
+{
+	title: "Getting a-head (Get it?)",
+	x: 1.5d,
+	y: 1.5d,
+	shape: "rsquare",
+	description: "Being a Major Tool(s)",
+	text: [
+		"Every expert, no matter how skilled, must have the necessary tools to proceed.",
+		"",
+		"In addition to the axe of the previous quest, there are three more tools you will need to make the first truly important block of the game.",
+		"The flint you gathered previously, along with some sticks and string, should allow you to create the necessary tools."
+	],
+	dependencies: [
+		"13ed3730"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2be1d4a2",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					PrimaryMaterial: "flint",
+					MaxDurability: 80,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f,
+					HarvestLevel: 1
+				}
+			},
+			Damage: 6s
+		}]
+	},
+	{
+		uid: "1db8f557",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					PrimaryMaterial: "flint",
+					MaxDurability: 80,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f,
+					HarvestLevel: 1
+				}
+			},
+			Damage: 5s
+		}]
+	},
+	{
+		uid: "6b8aa88e",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					PrimaryMaterial: "flint",
+					MaxDurability: 80,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f,
+					HarvestLevel: 1
+				}
+			},
+			Damage: 17s
+		}]
+	},
+	{
+		uid: "6b36e5d0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:flint_hammer_head"
+		}]
+	},
+	{
+		uid: "99c0999a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:flint_saw_head"
+		}]
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "The Humble Door",
+	x: -3.0d,
+	y: 10.5d,
+	description: "Opening Up New Possibilities",
+	text: [
+		"Truly, what separates us from the outside is our walls and doors. For what is a house without a door, but merely a man-made cavern?",
+		"",
+		"With this, we will finally be able to go through the night without blocking the doorways. According to my databanks, no mob in the overworld is capable of traversing through walls, so you will be safe.",
+		"",
+		"Do take note that some hostile mobs can survive in the daylight, so lighting the area around your residence is still advised."
+	],
+	dependencies: [
+		"9f4139d7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "70063ed5",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_door"
+		}]
+	}]
+}

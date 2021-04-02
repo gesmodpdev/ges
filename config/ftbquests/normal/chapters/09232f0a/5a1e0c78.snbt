@@ -1,0 +1,29 @@
+{
+	title: "The Humble Apple Tree",
+	x: 3.0d,
+	y: -3.0d,
+	description: "Learn a New Ton of Information",
+	text: [
+		"The apple fell, changing the course of physics forever.",
+		"",
+		"In addition to the crops you might be farming, why not plant a few fruit trees? They can be found naturally in the wild, and can be made artificially as well. To start off, why not make an apple tree? Try breaking oak leaves to find some apples, then make the tree yourself!",
+		"",
+		"To help guide you further, I'll give you another tree to work with after."
+	],
+	dependencies: [
+		"1d5ff99e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cdfa8f78",
+		type: "item",
+		items: [{
+			item: "harvestcraft:apple_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "b922d780",
+		type: "choice",
+		table: 1
+	}]
+}

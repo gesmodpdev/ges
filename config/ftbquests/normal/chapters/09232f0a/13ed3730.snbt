@@ -1,0 +1,27 @@
+{
+	title: "First Things First",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "Getting Going with Gravel",
+	text: [
+		"Every expert started with nothing, and had to build their way to the top.",
+		"",
+		"As your first task, please obtain 10 flint. Use my Journey Experience Information, or JEI, to find the recipe (by clicking on the flint). At the moment, you can only hand-craft flint from gravel.",
+		"More information about JEI is contained in the alternate questline.",
+		"Gravel sources may depend on biome, but a good bet is to search riverbeds and beaches.",
+		"Another great source is some mountains - the top layer is covered in gravel."
+	],
+	dependencies: [
+		"8482358f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "141cc80a",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}],
+		count: 10L
+	}]
+}

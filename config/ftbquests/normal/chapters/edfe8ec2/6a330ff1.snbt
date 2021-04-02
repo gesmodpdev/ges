@@ -1,0 +1,23 @@
+{
+	title: "The Ghost Ray",
+	x: 3.0d,
+	y: 1.5d,
+	description: "A Ray of Light in The Darkness",
+	text: [
+		"The Ghost Ray cried, for the oceans it swam in were as dead as it was.",
+		"",
+		"Ghost Rays are passive mobs that will simply fly in the air. If attacked, they will give Weakness III to you, but otherwise will leave you alone.",
+		"",
+		"They fly above desert areas and oceans."
+	],
+	dependencies: [
+		"2a4a7e57"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e32a5590",
+		type: "kill",
+		entity: "mod_lavacow:ghostray",
+		value: 100L
+	}]
+}

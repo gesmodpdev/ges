@@ -1,0 +1,23 @@
+{
+	title: "The Penghoul",
+	x: 1.0d,
+	y: 3.0d,
+	description: "Frozen In Fright",
+	text: [
+		"The Penghouls wandered the snow, hiding the many foolish bodies that had dared to attack them below.",
+		"",
+		"Penghouls are usually peaceful creatures. However, when attacked, they will summon all of their brethren around them to kill you.",
+		"",
+		"They spawn in snowy areas."
+	],
+	dependencies: [
+		"2a4a7e57"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d016560e",
+		type: "kill",
+		entity: "mod_lavacow:pingu",
+		value: 100L
+	}]
+}

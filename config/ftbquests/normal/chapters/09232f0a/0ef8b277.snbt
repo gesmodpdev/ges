@@ -1,0 +1,22 @@
+{
+	title: "Hunger a Little Less",
+	x: 3.0d,
+	y: 3.0d,
+	description: "Stairway to Heaven",
+	text: [
+		"The road less traveled is the more acclaimed, but the road better made is what helps us move.",
+		"",
+		"As you might have noticed, your hunger drops rather quickly, especially when you jump. You should make some stairs to lessen this strain! Note that you will need a saw to make stairs of any wooden variety."
+	],
+	dependencies: [
+		"da92fa62"
+	],
+	hide: true,
+	tasks: [{
+		uid: "897b5846",
+		type: "item",
+		items: [{
+			item: "minecraft:oak_stairs"
+		}]
+	}]
+}

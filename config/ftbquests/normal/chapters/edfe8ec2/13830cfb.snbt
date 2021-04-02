@@ -1,0 +1,24 @@
+{
+	title: "The Mycosis",
+	x: 3.0d,
+	y: 3.0d,
+	description: "Toxic Behavior",
+	text: [
+		"Plants wither, animals fall, the world grows less beautiful.",
+		"",
+		"The Mycosis is a zombie variant that will passively inflict Poison II on anybody that wanders within a 2 block radius of it.",
+		"",
+		"It spawns in jungles, swamps, and near rivers."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8459a7f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "203acca6",
+		type: "kill",
+		entity: "mod_lavacow:zombiemushroom",
+		value: 100L
+	}]
+}

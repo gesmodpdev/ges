@@ -1,0 +1,25 @@
+{
+	title: "The Raven",
+	x: 2.0d,
+	y: 0.5d,
+	description: "Once Upon a Midnight Dreary",
+	text: [
+		"The flock flew about the adventurer, curious as to who was inside their forest.",
+		"",
+		"The Raven is a peaceful, and tameable, creature. They can be tamed with fermented and regular spider eyes, and can pick up items around them to give to you.",
+		"",
+		"They spawn in cold and dark forests.",
+		"",
+		"Beware killing one, for a monster may arrive."
+	],
+	dependencies: [
+		"2a4a7e57"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9bcfebb1",
+		type: "kill",
+		entity: "mod_lavacow:raven",
+		value: 100L
+	}]
+}

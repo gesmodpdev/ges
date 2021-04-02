@@ -1,0 +1,15 @@
+{
+	title: "Finite Water",
+	x: -1.5d,
+	y: -1.5d,
+	shape: "diamond",
+	description: "The Source of All Your Problems",
+	text: [
+		"Water is the sustainer of life. As someone dependent on it, use it well.",
+		"",
+		"Water in this world is not infinite. You can easily drain lakes given the proper motivation, so be wary of your water consumption."
+	],
+	dependencies: [
+		"8482358f"
+	]
+}

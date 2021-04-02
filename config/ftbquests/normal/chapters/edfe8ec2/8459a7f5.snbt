@@ -1,0 +1,17 @@
+{
+	title: "Fish's Undead Rising - Hostile",
+	x: 1.5d,
+	y: -0.5d,
+	description: "A Grave Enemy",
+	text: [
+		"Upon a twisted night you see undead everywhere they can be.",
+		"",
+		"These mobs, while not all undead, are still quite terrifying to deal with. Be wary of nighttime, for that is when these monsters roam the earth.",
+		"",
+		"For better aesthetics, I removed the dependency lines connecting to the hostile mobs. If no lines are connected to the mob, assume it is hostile."
+	],
+	dependencies: [
+		"d9db7e59"
+	],
+	hide: true
+}

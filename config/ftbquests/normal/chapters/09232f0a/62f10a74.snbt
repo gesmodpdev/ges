@@ -1,0 +1,32 @@
+{
+	title: "The Humble Button",
+	x: -3.0d,
+	y: 7.5d,
+	description: "Pressing Matters",
+	text: [
+		"And the doorbell rang, alerting the residents that a guest had arrived.",
+		"",
+		"Wooden buttons, when pressed, send a redstone signal for 1.5 seconds. Stone buttons send a signal for 1.",
+		"",
+		"Wooden buttons can also be activated by an arrow, so if you need to activate a button at range, the wooden one is the way to go.",
+		"",
+		"Let's make both types!"
+	],
+	dependencies: [
+		"9f4139d7"
+	],
+	tasks: [{
+		uid: "097b3d5d",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_button"
+		}]
+	},
+	{
+		uid: "d2b9dd97",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_button"
+		}]
+	}]
+}

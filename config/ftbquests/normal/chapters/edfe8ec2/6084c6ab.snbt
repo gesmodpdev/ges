@@ -1,0 +1,23 @@
+{
+	title: "The Piranha",
+	x: 0.0d,
+	y: 1.5d,
+	description: "Looking at This Entry is a Little Fishy...",
+	text: [
+		"The farmers looked upon the Piranha with ruin, as their cows lay dead in the water.",
+		"",
+		"The Pirahna will not attack you. However, it will attack innocent livestock in the way that Swarmers attack everything.",
+		"",
+		"They spawn in jungles and swamps."
+	],
+	dependencies: [
+		"2a4a7e57"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9a81d302",
+		type: "kill",
+		entity: "mod_lavacow:piranha",
+		value: 100L
+	}]
+}

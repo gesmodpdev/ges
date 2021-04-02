@@ -1,0 +1,82 @@
+{
+	title: "Making the Making of Tools",
+	x: 12.0d,
+	y: 3.0d,
+	shape: "rsquare",
+	description: "Just Needs a Little Tinkering",
+	text: [
+		"The tools one uses is of utmost importance. Using the worst tools will make even the master artisan mediocre.",
+		"",
+		"This is one of the major milestones of this part of your journey, so congratulations! With these, you can create custom tools that are often much better than the flint tools you have currently! The tools are repairable, upgradeable, and have a variety of properties.",
+		"",
+		"To begin, you'll need to place a blank pattern at a Stencil Table to create a tool part pattern. You'll only need one, and can store these in Pattern Chests.",
+		"",
+		"Next, you place that tool part pattern in a Part Builder along with the appropriate materials to build the tool. The amount of materials needed are listed on the Pattern. You can store these parts in a Part Chest.",
+		"",
+		"Finally, take your tool parts and place them in a Tool Station to craft the final product.",
+		"",
+		"Two very important patterns to use are the tool binding and tool rod patterns. You'll be using those in all of your basic tools and even in some weaponry."
+	],
+	dependencies: [
+		"20721e28"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "186dec36",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}]
+	},
+	{
+		uid: "9db06ade",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "23707c7f",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "59cfe912",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		}]
+	},
+	{
+		uid: "9c523525",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:binding"
+			}
+		}]
+	}]
+}

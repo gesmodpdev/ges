@@ -1,0 +1,25 @@
+{
+	title: "Paper",
+	x: 9.0d,
+	y: 1.5d,
+	shape: "rsquare",
+	description: "This is Your Write as a Minecrafter",
+	text: [
+		"The written word changed the course of humanity forever.",
+		"",
+		"Paper is used for quite a few recipes, but the big ones you'll be worried about are the Tinker's tables. Please make X paper, which will let you make the tables in some of their usefulness, three stencils (which is most useful in creating your first custom pickaxe) and a form for brick-making. ",
+		"",
+		"You'll have to make a few more pieces of paper for the wooden forms to bring out the full potential of the tables, however."
+	],
+	dependencies: [
+		"6730c5c3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9db05eaf",
+		type: "item",
+		items: [{
+			item: "minecraft:paper"
+		}]
+	}]
+}

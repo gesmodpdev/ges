@@ -1,0 +1,22 @@
+{
+	title: "Leather",
+	x: -1.5d,
+	y: 4.5d,
+	description: "Cows of a Leather Herd Together",
+	text: [
+		"So they clothed himself in the skin of their hunt, preparing for the next.",
+		"",
+		"According to my databanks, leather is used for a variety of purposes (not just for protection). This includes saddles, backpacks, sleeping bags, and other assorted goods. As such, I ask that you please collect 16 Leather. "
+	],
+	dependencies: [
+		"309e4e81"
+	],
+	hide: true,
+	tasks: [{
+		uid: "93880520",
+		type: "item",
+		items: [{
+			item: "minecraft:leather"
+		}]
+	}]
+}

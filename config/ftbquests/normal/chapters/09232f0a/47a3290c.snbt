@@ -1,0 +1,59 @@
+{
+	title: "Backpacks: The Rest of Them",
+	x: -1.5d,
+	y: 13.5d,
+	description: "Back-To-Back Crafting",
+	text: [
+		"One of the crowning achievements of humanity is their ingenuity in doing the same thing with less effort.",
+		"",
+		"The rest of these backpacks, while not as useful, will still help you manage your inventory space.",
+		"",
+		"The Foresting Backpack will store wood, saplings, plants, and other organic material.",
+		"",
+		"The Hunting Backpack will store material you obtain from animals.",
+		"",
+		"The Adventuring Backpack will store material you obtain from killing monsters.",
+		"",
+		"The Building Backpack will store building materials, like stairs and slabs."
+	],
+	dependencies: [
+		"0c4208ce"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c01a9def",
+		type: "item",
+		items: [{
+			item: "forestry:forester_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "95950eb3",
+		type: "item",
+		items: [{
+			item: "forestry:hunter_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "85f55f77",
+		type: "item",
+		items: [{
+			item: "forestry:adventurer_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c6924297",
+		type: "item",
+		items: [{
+			item: "forestry:builder_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

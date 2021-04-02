@@ -1,0 +1,24 @@
+{
+	title: "The Mimicrab",
+	x: -4.0d,
+	y: 0.5d,
+	description: "Thinking Outside the Box",
+	text: [
+		"The Mimicrab laid in wait for the unwary explorer to \"open\" it and be devoured.",
+		"",
+		"The Mimicrab will attack when one moves close to it. Be wary of chests that are askew.",
+		"",
+		"The Mimicrab will spawn anywhere that contains chests."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8459a7f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a2d55461",
+		type: "kill",
+		entity: "mod_lavacow:mimic",
+		value: 100L
+	}]
+}

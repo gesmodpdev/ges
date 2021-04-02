@@ -1,0 +1,27 @@
+{
+	title: "The Final (Beginning) Frontier",
+	x: 3.75d,
+	y: 15.0d,
+	shape: "rsquare",
+	description: "Entering the Steam Age",
+	text: [
+		"As you walk on the long journey, take it a step at a time.",
+		"",
+		"Congratulations! With this machine made, you can now generate steam! You are now officially out of the stone age.",
+		"",
+		"A new section of my database has been unlocked for you. Good luck!"
+	],
+	dependencies: [
+		"c5a056ea",
+		"f6ef2b74"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "9b99e40c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1"
+		}]
+	}]
+}

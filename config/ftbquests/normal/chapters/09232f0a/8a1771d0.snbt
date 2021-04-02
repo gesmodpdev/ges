@@ -1,0 +1,26 @@
+{
+	title: "The Calculator",
+	icon: "jecalculation:item_calculator",
+	x: -1.5d,
+	y: 1.5d,
+	description: "A Useful Tool",
+	text: [
+		"He's making a list, checking it twice!",
+		"",
+		"I have a databank of most recipes you'll need to make going forward. To help you keep track of everything, I'll be giving you a crafting calculator. This tool will let you see the amount of components you will need for a given resource.",
+		"",
+		"To use this calculator, a few tips are helpful:",
+		"",
+		"To calculate a recipe, click the \"add\" button on the calculator",
+		"",
+		"TODO: Make this guide"
+	],
+	dependencies: [
+		"8482358f"
+	],
+	rewards: [{
+		uid: "3b48c097",
+		type: "item",
+		item: "jecalculation:item_calculator"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Steam: The Beckoning #1",
+	x: 3.0d,
+	y: 12.0d,
+	shape: "rsquare",
+	description: "Moving Gaming Stores Across the World",
+	text: [
+		"Of course, with all of the gas you'll be moving around, you'll need something to move it.",
+		"",
+		"It's time to put everything we have together. With your bronze ingots, make plates, and then curved plates. Using a wrench, hammer, and bending cylinder, make small pipes for your first steam machine. You're almost there!"
+	],
+	dependencies: [
+		"987c193c",
+		"9f4139d7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c934eb71",
+		type: "item",
+		items: [{
+			item: "gregtech:fluid_pipe 1 1095"
+		}],
+		count: 4L
+	}]
+}

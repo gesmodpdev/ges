@@ -1,0 +1,16 @@
+{
+	x: 0.5d,
+	y: -7.0d,
+	dependencies: [
+		"b14fe3d0"
+	],
+	tasks: [{
+		uid: "5292c1b5",
+		type: "item",
+		items: [{
+			item: "iceandfire:seaserpent_skull"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 2.5d,
+	y: -7.0d,
+	dependencies: [
+		"b14fe3d0"
+	],
+	tasks: [{
+		uid: "f97af16b",
+		type: "item",
+		items: [{
+			item: "iceandfire:lich_staff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

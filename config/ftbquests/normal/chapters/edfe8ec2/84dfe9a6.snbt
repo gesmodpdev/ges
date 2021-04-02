@@ -1,0 +1,24 @@
+{
+	title: "The Sludge Lord",
+	x: 4.5d,
+	y: 0.5d,
+	description: "It's About Slime it was Mentioned",
+	text: [
+		"Goo rose up from the ground after being expelled from the Sludge Lord itself.",
+		"",
+		"The Sludge Lord will shoot sludge at you, dealing 5 damage and inflicting Slowness IV and Blindness II for 4 seconds. In addition, it will summon 3 Lil'Sludges until 7 or 8 are around it.",
+		"",
+		"It spawns in swamps."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8459a7f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7efedd7f",
+		type: "kill",
+		entity: "mod_lavacow:sludgelord",
+		value: 100L
+	}]
+}

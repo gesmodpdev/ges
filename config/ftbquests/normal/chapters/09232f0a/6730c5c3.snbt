@@ -1,0 +1,30 @@
+{
+	title: "Mortar and Pestle",
+	x: 7.5d,
+	y: 1.5d,
+	shape: "rsquare",
+	description: "Grinding Out New Materials",
+	text: [
+		"Ashes to ashes, dust to dust.",
+		"",
+		"The Mortar is a necessity if you want to make dust out of any material. Later, this won't be the case, but for now, you'll need a few of these."
+	],
+	dependencies: [
+		"1fef86f4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "08bc2e01",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "flint"
+				}
+			},
+			Damage: 12s
+		}],
+		ignore_nbt: 1b
+	}]
+}

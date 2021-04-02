@@ -1,0 +1,16 @@
+{
+	x: -2.0d,
+	y: -3.5d,
+	dependencies: [
+		"68049638"
+	],
+	tasks: [{
+		uid: "d5f7c908",
+		type: "item",
+		items: [{
+			item: "iceandfire:gorgon_head"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

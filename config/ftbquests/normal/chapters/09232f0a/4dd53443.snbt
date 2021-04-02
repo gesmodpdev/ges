@@ -1,0 +1,17 @@
+{
+	title: "Worries of the Night",
+	x: -3.0d,
+	y: -1.5d,
+	shape: "diamond",
+	description: "Hello Darkness My Old Friend",
+	text: [
+		"Darkness is the great obscurer, but in darkness, you see even the dullest of light.",
+		"",
+		"From my databanks, the night in this world is quite dangerous. The darkness itself is almost impossible to see through, and the monsters are quite numerable.",
+		"",
+		"It is best that you find yourself a safe place to stay in before the sun falls."
+	],
+	dependencies: [
+		"8482358f"
+	]
+}

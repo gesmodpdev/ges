@@ -1,0 +1,42 @@
+{
+	title: "Farmer's Dream",
+	x: 0.0d,
+	y: 3.0d,
+	shape: "rsquare",
+	description: "A Dirt-y Job (A bit of dry humor)",
+	text: [
+		"And after Cincinnatus brought victory, he retired back to his humble farm.",
+		"",
+		"As the adventurous grass-breaker might have noticed, no seeds can be found! To find them, you have to hoe soil that is not within four blocks of any water. Please collect 4 seeds to start a future wheat farm."
+	],
+	dependencies: [
+		"da92fa62"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ee889d79",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					PrimaryMaterial: "flint",
+					MaxDurability: 80,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f,
+					HarvestLevel: 1
+				}
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2e5c7aae",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}],
+		count: 4L
+	}]
+}

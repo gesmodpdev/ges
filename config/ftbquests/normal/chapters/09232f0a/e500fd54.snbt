@@ -1,0 +1,34 @@
+{
+	title: "Getting an Upgrade #2: Electric Boogaloo",
+	x: 13.5d,
+	y: 7.5d,
+	description: "Reaping the Harvest",
+	text: [
+		"Hard work is needed for the farmer, but the tools must last longer than they.",
+		"",
+		"Let's upgrade our axe and shovel! This isn't required for most blocks, as most dirt, gravel, and wood only need the flint versions of the tools, but a tool that lasts longer is definitely more useful for mass resource gathering."
+	],
+	dependencies: [
+		"d611958c"
+	],
+	tasks: [{
+		uid: "a6b73495",
+		type: "item",
+		items: [{
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "bronze"
+			}
+		}]
+	},
+	{
+		uid: "8aa3fc01",
+		type: "item",
+		items: [{
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "bronze"
+			}
+		}]
+	}]
+}

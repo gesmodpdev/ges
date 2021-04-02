@@ -1,0 +1,129 @@
+{
+	title: "The Beginning of Craftsmanship",
+	x: 0.0d,
+	y: 9.0d,
+	shape: "rsquare",
+	description: "Mastering the Art of Tooling Around",
+	text: [
+		"Incremental improvements are the key to success.",
+		"",
+		"To make some important recipes, you'll need to make some more powerful tools. So it would be in your best interests to make them! In addition,let's update our old flint tools.",
+		"",
+		"Out of all of the materials you have access to at the moment, iron is the best mix of durability and rarity, as it is common enough to replace yet strong enough to where you don't have to replace often."
+	],
+	dependencies: [
+		"f17547a3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c325608d",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			},
+			Damage: 13s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "89297c24",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			},
+			Damage: 8s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ee91fda3",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "937f487f",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "881dd18c",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			},
+			Damage: 17s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5854c724",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			},
+			Damage: 12s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d61b69cd",
+		type: "item",
+		items: [{
+			id: "gtadditions:ga_meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c3d3d6d5",
+		type: "item",
+		items: [{
+			id: "gtadditions:ga_meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

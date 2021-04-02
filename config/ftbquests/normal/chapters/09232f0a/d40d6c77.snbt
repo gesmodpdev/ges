@@ -1,0 +1,23 @@
+{
+	title: "Metal #2: Copper",
+	x: 6.0d,
+	y: 7.5d,
+	shape: "rsquare",
+	description: "Cu Later, Alligator",
+	text: [
+		"Sometimes, the parts of the machine are more important than the whole.",
+		"",
+		"Let's make some copper! While it won't be used for much besides making bronze for a bit, once we move into the electric age copper will be a very important material."
+	],
+	dependencies: [
+		"a9cf1864"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ca62bea6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10018"
+		}]
+	}]
+}

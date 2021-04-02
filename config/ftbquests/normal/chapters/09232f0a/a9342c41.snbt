@@ -1,0 +1,21 @@
+{
+	title: "Cauldron",
+	x: 1.5d,
+	y: 12.0d,
+	description: "Washing Your Hands of the Situation",
+	text: [
+		"Water is such a useful liquid that it is no surprise that storing it became a necessity.",
+		"",
+		"A cauldron is a useful item until you get your first few steam machines, as it lets you clean dust to be used in alloying. More specifically, you can clean copper and tin dust from impure dust instead of throwing the dust in the melter and casting ingots. Saves a bit of time, and only at the cost of 14 iron (plus any iron used for the hammer)."
+	],
+	dependencies: [
+		"9f4139d7"
+	],
+	tasks: [{
+		uid: "0d0d3154",
+		type: "item",
+		items: [{
+			item: "minecraft:cauldron"
+		}]
+	}]
+}

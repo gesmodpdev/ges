@@ -1,0 +1,21 @@
+{
+	title: "The Better(?) Chest Part Two",
+	x: 10.5d,
+	y: 4.5d,
+	description: "Part of Something Great",
+	text: [
+		"The best tools are a product of their constituent parts.",
+		"",
+		"If you've crafted a variety of parts, you know that they take up a lot of room in your inventory. They cannot stack, and there is a wide variety of them. The solution is to craft a Part Chest. This will let you store as many parts as you want, which is great for reducing storage space."
+	],
+	dependencies: [
+		"20721e28"
+	],
+	tasks: [{
+		uid: "676775a9",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 5"
+		}]
+	}]
+}

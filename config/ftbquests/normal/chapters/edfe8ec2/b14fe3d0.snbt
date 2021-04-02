@@ -1,0 +1,15 @@
+{
+	title: "Ice and Fire - Hostile",
+	x: 1.5d,
+	y: -4.5d,
+	description: "Stories of Yore, Monsters Galore",
+	text: [
+		"Not all stories have a happy ending.",
+		"",
+		"These monsters, while not the deadliest, are still willing to end your life at the slightest provocation. They have different abilities that they will use to ensnare, beguile, or overwhelm you."
+	],
+	dependencies: [
+		"d9db7e59"
+	],
+	hide: true
+}

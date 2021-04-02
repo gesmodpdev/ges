@@ -1,0 +1,22 @@
+{
+	title: "The Pseudo-Wall",
+	x: 7.5d,
+	y: -3.0d,
+	description: "Fencing Practice",
+	text: [
+		"And they made enclosures, to keep the animals in, and the predators out.",
+		"",
+		"While not needed, fences make for very aesthetic looking enclosures for animals, farms, and really just buildings in general. Why don't you make a few of them?"
+	],
+	dependencies: [
+		"0b66cb65"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0a9e0f2e",
+		type: "item",
+		items: [{
+			item: "minecraft:fence"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	dependencies: [
+		"b956a5a6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8aef5c17",
+		type: "item",
+		items: [{
+			item: "animania:block_straw"
+		}]
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "The Undead Swine",
+	x: -3.0d,
+	y: 2.5d,
+	description: "Pigheaded Enemies",
+	text: [
+		"Charging at the adventurers, the Undead Swine battered them away.",
+		"",
+		"The Undead Swine will charge forward at you, knocking back all that get in its way. If you're hit by the swine, 4 damage will be dealt to you.",
+		"",
+		"It spawns in forests, and can occasionally dig out mushrooms from grass."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8459a7f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "50faa97b",
+		type: "kill",
+		entity: "mod_lavacow:undeadswine",
+		value: 100L
+	}]
+}

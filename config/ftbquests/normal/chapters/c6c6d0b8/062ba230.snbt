@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0c4208ce"
+	],
+	tasks: [{
+		uid: "8684c91c",
+		type: "item",
+		items: [{
+			item: "harvestcraft:hardenedleatherchestitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

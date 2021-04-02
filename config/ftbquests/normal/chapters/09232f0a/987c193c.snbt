@@ -1,0 +1,30 @@
+{
+	title: "Metal #4: Bronze",
+	x: 6.0d,
+	y: 9.0d,
+	shape: "rsquare",
+	description: "Steel's Three-Times-Removed CuSn",
+	text: [
+		"The advent of bronze catapulted humanity into a new age; The world would never be the same.",
+		"",
+		"Let's make some Bronze! To do this, we'll need to be a bit creative until we obtain an alloy smelter later on.",
+		"",
+		"First, we need to obtain copper and tin dust. There are two ways of doing this: Either make some copper and tin ingots and pulverize them with a mortar, or make some impure dust and throw them into a cauldron with water in it.",
+		"",
+		"Once you have 3 copper and 1 tin, place them in a crafting table to obtain 3 bronze dust. ",
+		"",
+		"Finally, place the bronze dust into the Melter and cast some bronze ingots with it!"
+	],
+	dependencies: [
+		"460f7f32",
+		"d40d6c77"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d71c81a3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10095"
+		}]
+	}]
+}

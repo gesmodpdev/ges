@@ -1,0 +1,49 @@
+{
+	title: "A Better Tree",
+	x: 1.5d,
+	y: -3.0d,
+	description: "How Much Wood Would a Wood Chuck Chop if a Wood Chuck Could Chop Wood",
+	text: [
+		"Trees are the guardians of the forest, the overseers of the wood. You depend on them, and they give to you.",
+		"",
+		"My databanks have predicted that the amount of wood you'll need for the times ahead is far greater than what the normal trees could give you. These trees are far greater in wood density per sapling then most, so you'll be able to get the most for your effort.",
+		"",
+		"My job as a guide lets me help you in ways like this, so please let me help you."
+	],
+	dependencies: [
+		"1d5ff99e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "684218af",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling 1 1"
+		}],
+		count: 5L,
+		consume_items: true
+	},
+	{
+		uid: "b033f6dc",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling"
+		}],
+		count: 5L,
+		consume_items: true
+	},
+	{
+		uid: "894277aa",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling 1 2"
+		}],
+		count: 5L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "0a4d4bcb",
+		type: "choice",
+		table: 0
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Making the Furnace",
+	x: 6.0d,
+	y: 3.0d,
+	shape: "rsquare",
+	description: "Smoking Hot, Baby!",
+	text: [
+		"Heat is the source, and taker, of life. Harnessing it is man's greatest triumph, which catapulted them over the heavens.",
+		"",
+		"The furnace is vitally important for many things - food, bricks, stone, and generally anything that can be created from placing something in an oven.",
+		"",
+		"Sadly, this does not extend to creating any ingots from ores.The amount of stone and other materials means that the ores themselves cannot be so easily processed. But do not worry, for I will guide you to your first metal!"
+	],
+	dependencies: [
+		"efd84085"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f0594194",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}]
+}

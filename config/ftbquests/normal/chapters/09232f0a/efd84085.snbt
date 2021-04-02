@@ -1,0 +1,53 @@
+{
+	title: "The First Half of the Name",
+	x: 6.0d,
+	y: 1.5d,
+	shape: "rsquare",
+	description: "Picking up Speed",
+	text: [
+		"Upon a foundation of stone, a mighty house can be built.",
+		"",
+		"This is the first, and for a while, only pickaxe you'll be able to use for the time being. Making the head will require a 3x3 crafting grid, so the crafting table is a necessity.",
+		"This pick will be able to mine most basic ores, like those that give iron, copper, tin, et cetera. For more information on what ores you need to find, check out the \"This Ore That\" questbook chapter.",
+		"You won't be able to make a better pickaxe for a while, so as your guide, I think it best you make a few of these."
+	],
+	dependencies: [
+		"597352dc"
+	],
+	tasks: [{
+		uid: "4be150df",
+		type: "item",
+		icon: {
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "flint"
+				}
+			},
+			Damage: 1s
+		},
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9cbcd81f",
+		type: "item",
+		item: {
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "flint"
+				}
+			},
+			Damage: 1s
+		}
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 1.5d,
+	y: 3.0d,
+	dependencies: [
+		"b956a5a6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ad2f69df",
+		type: "item",
+		items: [{
+			item: "animania:salt_lick"
+		}],
+		ignore_nbt: 1b
+	}]
+}

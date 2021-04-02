@@ -1,0 +1,19 @@
+{
+	title: "Greetings, Intrepid Traveler!",
+	x: -6.125d,
+	y: 0.0d,
+	shape: "rsquare",
+	text: [
+		"Hi! I am your Guidance and Exploration System. I will be your guide in this incredible new world, filled with peril and mystical beauty!",
+		"I will show you how to progress through this world, and help you overcome obstacles and adversity.",
+		"We will conquer the land, slay mystical beasts, unlock the pinnacle of technology, and uncover the most mysterious of magic.",
+		"Are you ready?"
+	],
+	size: 2.5d,
+	tasks: [{
+		uid: "1c8541a2",
+		type: "checkmark",
+		title: "Greetings, Intrepid Traveler!",
+		icon: "minecraft:grass"
+	}]
+}

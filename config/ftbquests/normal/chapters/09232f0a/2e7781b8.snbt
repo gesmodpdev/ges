@@ -1,0 +1,24 @@
+{
+	title: "Just Enough Information",
+	x: 0.0d,
+	y: -1.5d,
+	shape: "diamond",
+	description: "Searching for Oneself",
+	text: [
+		"While every expert started from nothing, there's nothing to say they can't have help along the way.",
+		"",
+		"I've already introduced you to JEI, but there are some finer features that make navigating my vast databanks quite easy!",
+		"If you left click on an item, you can find out what recipes make the item. For example, you can left click on flint to find out what recipes, machines, etc. make flint.  Alternatively, hover your cursor over the item and press \"R\" (for recipes, probably - I don't know what my programmer was thinking when they made me).",
+		"If you right click on an item, you can find out what recipes the item is used in. For example, you can right click on flint to find out every recipe flint is used in. Alternatively, hover your cursor over the item and press \"U\" (for uses, presumably).",
+		"",
+		"There are also some useful features in the search bar that I have (located below all of my listed items). You can use this search bar to search for an item name, but there are several more options you can take.",
+		"@mod-name: Searches for items that come from the mod \"mod-name\". So @gregtech will search for all items from gregtech.",
+		"$ore-value: Searches for all items that match the ore dictionary value \"ore-value\". So, @plankWood will give you all wooden planks.",
+		"",
+		"These options can be stacked, but make sure they come first. For example, @gregtech $dustPure will give you every example of purified dust that exists from gregtech."
+	],
+	dependencies: [
+		"13ed3730"
+	],
+	hide: true
+}

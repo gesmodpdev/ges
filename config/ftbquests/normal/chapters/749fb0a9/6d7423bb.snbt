@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: -1.5d,
+	dependencies: [
+		"ed4143a7"
+	],
+	tasks: [{
+		uid: "d8a13839",
+		type: "item",
+		items: [{
+			item: "natura:saguaro"
+		}]
+	}]
+}

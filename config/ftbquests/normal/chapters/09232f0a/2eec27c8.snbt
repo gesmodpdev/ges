@@ -1,0 +1,25 @@
+{
+	title: "The Better Crafting Table",
+	x: 7.5d,
+	y: 3.0d,
+	description: "To Your Stations!",
+	text: [
+		"The second time you do something, use the existing infrastructure to make your second time easier and more efficient.",
+		"",
+		"While not necessary, creating the Crafting Station will allow you to store objects in the crafting slots while in use. This is especially useful when some recipes require tools. ",
+		"For instance, if you wanted to saw wood to increase your plank production, it would be wise to have a Station with a saw already placed. Then, when you need to make more wood, you place the wood in the Station without needing to also carry the saw. You may also leave both the saw and wood in the Station and only craft what planks you need.",
+		"",
+		"All in all, this is quite the useful quality of life enhancement."
+	],
+	dependencies: [
+		"20721e28"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0ef8ab06",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}]
+	}]
+}

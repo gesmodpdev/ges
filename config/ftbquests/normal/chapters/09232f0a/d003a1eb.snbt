@@ -1,0 +1,24 @@
+{
+	title: "Getting an Upgrade #4",
+	x: 10.5d,
+	y: 10.5d,
+	description: "I See That Enemy Got... The Point!",
+	text: [
+		"The swords clashed, but the superior sword was victorious.",
+		"",
+		"Let's make an upgrade to our sword! There's not really much other to say here."
+	],
+	dependencies: [
+		"d611958c"
+	],
+	tasks: [{
+		uid: "2743bb64",
+		type: "item",
+		items: [{
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "bronze"
+			}
+		}]
+	}]
+}

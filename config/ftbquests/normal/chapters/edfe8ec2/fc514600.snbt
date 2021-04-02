@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: -6.5d,
+	dependencies: [
+		"b14fe3d0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "77ff63f2",
+		type: "item",
+		items: [{
+			item: "iceandfire:deathworm_gauntlet_yellow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

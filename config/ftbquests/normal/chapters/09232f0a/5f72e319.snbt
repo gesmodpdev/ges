@@ -1,0 +1,23 @@
+{
+	title: "Traveling Long Distances: Primitive Air",
+	disable_toast: true,
+	x: 1.5d,
+	y: 13.5d,
+	description: "Hang In There",
+	text: [
+		"Sometimes, the fastest way is not through the ground, but the air above.",
+		"",
+		"With the hang glider, you should be able to travel very long distances rather quickly, provided you have a sufficiently high place to jump off of. To activate it, right click it while in the air."
+	],
+	dependencies: [
+		"0c4208ce"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6f5e6827",
+		type: "item",
+		items: [{
+			item: "openblocks:hang_glider"
+		}]
+	}]
+}

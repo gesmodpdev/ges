@@ -1,0 +1,18 @@
+{
+	title: "The Many Mobs You'll Face (Overworld)",
+	x: 1.5d,
+	y: -2.5d,
+	description: "The First World of Many",
+	text: [
+		"The meek shall inherit the earth, but only after dealing with the locals.",
+		"",
+		"This is my databank for all monsters that you may find in the overworld. ",
+		"If you collect enough data by slaying these monsters, I'll be able to provide you with some resources!",
+		"",
+		"Happy Hunting! "
+	],
+	dependencies: [
+		"ed8bf76e"
+	],
+	hide: true
+}

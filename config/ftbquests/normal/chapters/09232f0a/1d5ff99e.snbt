@@ -1,0 +1,55 @@
+{
+	title: "Axing the Important Questions",
+	icon: {
+		id: "gregtech:meta_tool",
+		tag: {
+			GT.ToolStats: {
+				Material: "flint"
+			}
+		},
+		Damage: 3s
+	},
+	disable_toast: true,
+	x: 1.5d,
+	y: -1.5d,
+	shape: "rsquare",
+	description: "Start Tooling Around",
+	text: [
+		"One small step for you, one giant leap in relative progress.",
+		"",
+		"Adventurous players will have already realized that you can't chop down wood with your hands. As your guide, I admit this is a problem.",
+		"However, my databanks have provided a solution! Craft an axe head and, with a string, tie together a stick (found by breaking the leaves of trees) and that head to make a flint axe!",
+		"The leftover flint, however, is important, so don't use all of it now.",
+		"Something to note is that my databanks compress the recipes for all Gregtech tools under their \"Darmstatdium\" equivalents. To find the flint axe recipe, click on the axe above and search the pages.",
+		"You can also check out the quest about JEI to see alternate ways of finding the recipe."
+	],
+	dependencies: [
+		"13ed3730"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c98e40a3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:flint_axe_head"
+		}]
+	},
+	{
+		uid: "bb7e8c28",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					PrimaryMaterial: "flint",
+					MaxDurability: 80,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f,
+					HarvestLevel: 1
+				}
+			},
+			Damage: 3s
+		}],
+		only_from_crafting: false
+	}]
+}

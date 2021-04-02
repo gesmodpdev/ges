@@ -1,0 +1,30 @@
+{
+	title: "The Soft Hammer",
+	x: 6.0d,
+	y: -1.5d,
+	shape: "rsquare",
+	description: "Don't be Hard-Headed",
+	text: [
+		"Sometimes in life, a gentler touch is needed.",
+		"",
+		"This hammer will let you craft some useful items. Later on, it'll let you stop machines while they're running! But for now, the recipes will be enough."
+	],
+	dependencies: [
+		"597352dc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ca3d2193",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "wood"
+				}
+			},
+			Damage: 7s
+		}],
+		ignore_nbt: 1b
+	}]
+}

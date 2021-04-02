@@ -1,0 +1,24 @@
+{
+	title: "The Frigid",
+	x: 0.0d,
+	y: 3.0d,
+	description: "Giving You the Cold Shoulder",
+	text: [
+		"The ice cracked and popped as the veins in the body froze over.",
+		"",
+		"The Frigid is a zombie variant that will inflict Slowness V for 2 seconds upon attacking you.",
+		"",
+		"It spawns in cold locations."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8459a7f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "09f61d86",
+		type: "kill",
+		entity: "mod_lavacow:zombiefrozen",
+		value: 100L
+	}]
+}

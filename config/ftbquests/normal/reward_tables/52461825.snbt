@@ -1,0 +1,19 @@
+{
+	title: "Fruit Trees",
+	loot_size: 1,
+	rewards: [{
+		item: "harvestcraft:dragonfruit_sapling"
+	},
+	{
+		item: "harvestcraft:banana_sapling"
+	},
+	{
+		item: "harvestcraft:walnut_sapling"
+	},
+	{
+		item: "harvestcraft:mango_sapling"
+	},
+	{
+		item: "harvestcraft:cashew_sapling"
+	}]
+}

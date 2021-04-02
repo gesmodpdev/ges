@@ -1,0 +1,26 @@
+{
+	title: "The Parasite",
+	x: -2.5d,
+	y: 1.5d,
+	description: "An Inside Joke",
+	text: [
+		"The corpse burst at the seams, and the parasites gushed out of the decaying body.",
+		"",
+		"The parasite will spawn in groups of five when killing zombie like creatues, or at a small chance when a sand block is destroyed.",
+		"",
+		"The parasite will be nonhostile towards you if the light level is 12 or more. However, they will seek out zombie variants and kill them, which will then spawn more parasites.",
+		"",
+		"If a zombie is killed in the jungle, jungle parasites will form. If left alone for too long, they will transform into Vespa."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8459a7f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "54857dc9",
+		type: "kill",
+		entity: "mod_lavacow:parasite",
+		value: 100L
+	}]
+}

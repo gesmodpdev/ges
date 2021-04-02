@@ -1,0 +1,24 @@
+{
+	title: "Leather, but... Hard?",
+	x: 0.0d,
+	y: 12.0d,
+	description: "Tough Love",
+	text: [
+		"The tanner smiled at a job well done.",
+		"",
+		"Hardened leather is a useful material, used for both crafting armor and other important recipes.",
+		"",
+		"While I won't pressure you to make more than required for a sleeping bag, the items that you can make with hardened leather will be very useful to you throughout this stage of your journey."
+	],
+	dependencies: [
+		"9f4139d7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3e903866",
+		type: "item",
+		items: [{
+			item: "harvestcraft:hardenedleatheritem"
+		}]
+	}]
+}
